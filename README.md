@@ -10,11 +10,13 @@ there are no 8-byte integers.
 ## Installation
 
 ## Usage
-    Packer = require('packer');
-    var unpack_array = new Packer('>H')
-      .unpack(new Buffer([0x00, 0x01]));
-    // unpack_array will be an array containing [1]
+```JavaScript
+Packer = require('packer');
+var unpack_array = new Packer('>H')
+  .unpack(new Buffer([0x00, 0x01]));
+// unpack_array will be an array containing [1]
 
-    var packed_buffer = new Packer('>H')
-      .pack(1);
-    // packed_buffer will be a Buffer of length 2 containing 00 01
+var packed_buffer = new Packer('>H')
+  .pack(1);
+// packed_buffer will be a Buffer of length 2 containing 00 01
+```
