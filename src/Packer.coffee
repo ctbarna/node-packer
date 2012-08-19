@@ -65,7 +65,7 @@ class Packer
       format = format.substring(1)
 
       if char is "s" or char is "p"
-        vals.push(buffer.toString('utf8', position, times))
+        vals.push(buffer.toString('utf8', position, position+times))
         position += times
       else if char is "x"
         position += times
