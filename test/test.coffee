@@ -1,4 +1,4 @@
-Packer = require 'packer'
+Packer = require 'pypacker'
 chai = require 'chai'
 chai.should()
 
