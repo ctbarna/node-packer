@@ -12,7 +12,7 @@ there are no 8-byte integers.
 
 ## Usage
 ```JavaScript
-Packer = require('packer');
+Packer = require('pypacker');
 var unpack_array = new Packer('>H')
   .unpack(new Buffer([0x00, 0x01]));
 // unpack_array will be an array containing [1]
