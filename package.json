@@ -1,6 +1,6 @@
 {
   "name": "pypacker",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Handle binary strings in buffers similar to Python's struct library.",
   "author": "Chris Barna <chris@unbrain.net>",
   "main": "main.js",
