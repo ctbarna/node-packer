@@ -1,5 +1,5 @@
-# Packer
-`packer` is a binary packer and unpacker inspired by Python's [struct
+# PyPacker
+`pypacker` is a binary packer and unpacker inspired by Python's [struct
 library](http://docs.python.org/library/struct.html) for node.js.
 Currently, it packs/unpacks to and from a Buffer object. When unpacking,
 an array is returned with the requested values.
@@ -8,6 +8,7 @@ Interfacing is exactly the same as the Python struct python class except
 there are no 8-byte integers.
 
 ## Installation
+`npm install pypacker`
 
 ## Usage
 ```JavaScript
