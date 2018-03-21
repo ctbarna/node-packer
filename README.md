@@ -1,4 +1,6 @@
 # PyPacker
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/ctbarna/node-packer.svg)](https://greenkeeper.io/)
 `pypacker` is a binary packer and unpacker inspired by Python's [struct
 library](http://docs.python.org/library/struct.html) for node.js.
 Currently, it packs/unpacks to and from a Buffer object. When unpacking,
